@@ -1,0 +1,669 @@
+[R1] fold 0: fit 139, early-stop 35, validation 44 speakers
+  [probe fold 0] best epoch 02 early-stop AUC 0.496 loss 1.025
+  [lora fold 0 epoch 00] adapters = 0 (0.59M LoRA params) | early-stop AUC 0.496 loss 1.024
+  [lora fold 0 epoch 01] train loss 0.801 | early-stop AUC 0.527 loss 0.979 | 41s
+  [lora fold 0 epoch 02] train loss 0.789 | early-stop AUC 0.545 loss 1.035 | 42s
+  [lora fold 0 epoch 03] train loss 0.803 | early-stop AUC 0.485 loss 0.887 | 42s
+  [lora fold 0 epoch 04] train loss 0.753 | early-stop AUC 0.492 loss 0.980 | 42s
+  [lora fold 0 epoch 05] train loss 0.750 | early-stop AUC 0.515 loss 1.122 | 42s
+  [lora fold 0 epoch 06] train loss 0.756 | early-stop AUC 0.489 loss 1.001 | 42s
+  [lora fold 0 epoch 07] train loss 0.718 | early-stop AUC 0.504 loss 1.097 | 42s
+  [lora fold 0 epoch 08] train loss 0.728 | early-stop AUC 0.473 loss 1.036 | 42s
+  [lora fold 0] KEPT adapters of epoch 3 (early-stop AUC 0.485 vs probe 0.496) | merge check max diff 6.4e-06 | top layer 8 (w=0.08)
+                                                                                                                                                                          
+[R1] fold 1: fit 139, early-stop 35, validation 44 speakers
+  [probe fold 1] best epoch 18 early-stop AUC 0.678 loss 0.747
+  [lora fold 1 epoch 00] adapters = 0 (0.59M LoRA params) | early-stop AUC 0.678 loss 0.746
+  [lora fold 1 epoch 01] train loss 0.640 | early-stop AUC 0.712 loss 0.921 | 43s
+  [lora fold 1 epoch 02] train loss 0.551 | early-stop AUC 0.708 loss 0.871 | 42s
+  [lora fold 1 epoch 03] train loss 0.615 | early-stop AUC 0.705 loss 0.878 | 42s
+  [lora fold 1 epoch 04] train loss 0.547 | early-stop AUC 0.701 loss 0.882 | 43s
+  [lora fold 1 epoch 05] train loss 0.523 | early-stop AUC 0.701 loss 0.976 | 43s
+  [lora fold 1] adapters never beat the probe on the early-stop speakers -> discarded, this fold keeps the frozen features
+
+[R1] fold 2: fit 139, early-stop 35, validation 44 speakers
+  [probe fold 2] best epoch 14 early-stop AUC 0.576 loss 0.968
+  [lora fold 2 epoch 00] adapters = 0 (0.59M LoRA params) | early-stop AUC 0.576 loss 0.967
+  [lora fold 2 epoch 01] train loss 0.707 | early-stop AUC 0.684 loss 1.288 | 41s
+  [lora fold 2 epoch 02] train loss 0.535 | early-stop AUC 0.660 loss 0.906 | 42s
+  [lora fold 2 epoch 03] train loss 0.562 | early-stop AUC 0.608 loss 1.089 | 41s
+  [lora fold 2 epoch 04] train loss 0.515 | early-stop AUC 0.604 loss 1.075 | 41s
+  [lora fold 2 epoch 05] train loss 0.500 | early-stop AUC 0.628 loss 1.216 | 41s
+  [lora fold 2 epoch 06] train loss 0.488 | early-stop AUC 0.608 loss 1.098 | 41s
+  [lora fold 2 epoch 07] train loss 0.500 | early-stop AUC 0.592 loss 1.118 | 41s
+  [lora fold 2] KEPT adapters of epoch 2 (early-stop AUC 0.660 vs probe 0.576) | merge check max diff 1.5e-05 | top layer 6 (w=0.08)
+                                                                                                                                                                          
+[R1] fold 3: fit 140, early-stop 35, validation 43 speakers
+  [probe fold 3] best epoch 24 early-stop AUC 0.636 loss 0.914
+  [lora fold 3 epoch 00] adapters = 0 (0.59M LoRA params) | early-stop AUC 0.640 loss 0.914
+  [lora fold 3 epoch 01] train loss 0.583 | early-stop AUC 0.648 loss 1.553 | 46s
+  [lora fold 3 epoch 02] train loss 0.571 | early-stop AUC 0.652 loss 1.475 | 46s
+  [lora fold 3 epoch 03] train loss 0.502 | early-stop AUC 0.682 loss 1.174 | 46s
+  [lora fold 3 epoch 04] train loss 0.487 | early-stop AUC 0.686 loss 1.235 | 46s
+  [lora fold 3 epoch 05] train loss 0.502 | early-stop AUC 0.674 loss 1.220 | 46s
+  [lora fold 3] adapters never beat the probe on the early-stop speakers -> discarded, this fold keeps the frozen features
+
+[R1] fold 4: fit 140, early-stop 35, validation 43 speakers
+  [probe fold 4] best epoch 02 early-stop AUC 0.648 loss 0.791
+  [lora fold 4 epoch 00] adapters = 0 (0.59M LoRA params) | early-stop AUC 0.648 loss 0.792
+  [lora fold 4 epoch 01] train loss 0.830 | early-stop AUC 0.652 loss 0.828 | 44s
+  [lora fold 4 epoch 02] train loss 0.745 | early-stop AUC 0.621 loss 0.792 | 44s
+  [lora fold 4 epoch 03] train loss 0.733 | early-stop AUC 0.602 loss 0.838 | 44s
+  [lora fold 4 epoch 04] train loss 0.696 | early-stop AUC 0.602 loss 0.809 | 44s
+  [lora fold 4 epoch 05] train loss 0.718 | early-stop AUC 0.598 loss 0.811 | 44s
+  [lora fold 4] adapters never beat the probe on the early-stop speakers -> discarded, this fold keeps the frozen features
+
+[R1] Stage A done (./kaggle/working/outputs_v15/cache/-home-common-Models-all-mpnet-base-v2-transformers-default-v1_-home-common-Models-Hubert-base-ls960_mw1_ps1_gm0_c15_mx120_mel64_ce0/lora_44e70145).
+  early-stop AUC  probe: [0.496, 0.678, 0.576, 0.636, 0.648] | LoRA: [0.485, 0.678, 0.66, 0.64, 0.648] | adapters kept: [True, False, True, False, False]
+[R3] audio_lora_e2e: CV AUC 0.589 | TEST AUC 0.639
+[R3] audio_probe_e2e: CV AUC 0.553 | TEST AUC 0.629
+     (frozen-HuBERT LR probe CV AUC 0.615)
+
+=== abl_gm0_linear: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+abl_gm0_linear ensemble: CV AUC 0.587 | TEST AUC 0.639 F1-macro 0.510 Acc 0.518 (thr 0.00)
+
+Stage 1 audio ablation (chosen by CV AUC):
+    gm    enc  cv_auc  cv_F1_macro  mean_best_epoch  test_auc_info_only
+False linear   0.587        0.504              8.0               0.639
+
+>>> Audio branch used from now on: eGeMAPS branch = False, encoder = linear, layer attention = True (scalar), frame attention = off
+
+=== hpo_text_0: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+hpo_text_0 ensemble: CV AUC 0.808 | TEST AUC 0.842 F1-macro 0.731 Acc 0.732 (thr 0.14)
+
+=== hpo_text_1: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.2, 'head_drop': 0.5, 'lr': 0.0005, 'wd': 0.001, 'act': 'silu', 'smooth': 0.1} ===
+hpo_text_1 ensemble: CV AUC 0.787 | TEST AUC 0.803 F1-macro 0.730 Acc 0.732 (thr 0.34)
+
+=== hpo_text_2: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.4, 'head_drop': 0.5, 'lr': 0.001, 'wd': 0.01, 'act': 'silu', 'smooth': 0.05} ===
+hpo_text_2 ensemble: CV AUC 0.781 | TEST AUC 0.824 F1-macro 0.759 Acc 0.768 (thr 0.37)
+
+=== hpo_text_3: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.2, 'head_drop': 0.5, 'lr': 0.001, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.1} ===
+hpo_text_3 ensemble: CV AUC 0.775 | TEST AUC 0.808 F1-macro 0.678 Acc 0.679 (thr 0.18)
+
+=== hpo_text_4: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.4, 'head_drop': 0.3, 'lr': 0.001, 'wd': 0.05, 'act': 'relu', 'smooth': 0.0} ===
+hpo_text_4 ensemble: CV AUC 0.806 | TEST AUC 0.818 F1-macro 0.745 Acc 0.750 (thr 0.29)
+
+=== hpo_text_5: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.1, 'head_drop': 0.2, 'lr': 0.0002, 'wd': 0.05, 'act': 'gelu', 'smooth': 0.1} ===
+hpo_text_5 ensemble: CV AUC 0.764 | TEST AUC 0.816 F1-macro 0.661 Acc 0.661 (thr 0.27)
+
+=== hpo_text_6: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0002, 'wd': 0.001, 'act': 'mish', 'smooth': 0.05} ===
+hpo_text_6 ensemble: CV AUC 0.762 | TEST AUC 0.831 F1-macro 0.661 Acc 0.661 (thr 0.21)
+
+=== hpo_text_7: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.1, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.01, 'act': 'relu', 'smooth': 0.1} ===
+hpo_text_7 ensemble: CV AUC 0.785 | TEST AUC 0.827 F1-macro 0.747 Acc 0.750 (thr 0.45)
+
+=== hpo_text_8: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.5, 'lr': 0.0002, 'wd': 0.001, 'act': 'gelu', 'smooth': 0.1} ===
+hpo_text_8 ensemble: CV AUC 0.781 | TEST AUC 0.826 F1-macro 0.730 Acc 0.732 (thr 0.42)
+
+=== hpo_text_9: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.1, 'head_drop': 0.5, 'lr': 0.0005, 'wd': 0.05, 'act': 'silu', 'smooth': 0.05} ===
+hpo_text_9 ensemble: CV AUC 0.771 | TEST AUC 0.823 F1-macro 0.731 Acc 0.732 (thr 0.22)
+
+Hyperparameter search (text, dev CV AUC):
+  trial  hidden  in_drop  head_drop     lr    wd  act  smooth  cv_auc  cv_F1_macro  mean_best_epoch
+     0      64      0.2        0.3 0.0002 0.010 gelu    0.00  0.8076       0.7383              6.6
+     4      32      0.4        0.3 0.0010 0.050 relu    0.00  0.8064       0.7298              6.0
+     1     128      0.2        0.5 0.0005 0.001 silu    0.10  0.7870       0.7022              8.4
+     7      32      0.1        0.2 0.0005 0.010 relu    0.10  0.7847       0.7113             10.0
+     2      64      0.4        0.5 0.0010 0.010 silu    0.05  0.7815       0.7456              9.0
+     8     128      0.4        0.5 0.0002 0.001 gelu    0.10  0.7806       0.7236             10.2
+     3      32      0.2        0.5 0.0010 0.010 gelu    0.10  0.7746       0.6802             12.6
+     9      64      0.1        0.5 0.0005 0.050 silu    0.05  0.7705       0.7231              9.8
+     5      32      0.1        0.2 0.0002 0.050 gelu    0.10  0.7645       0.6529             10.0
+     6      32      0.4        0.2 0.0002 0.001 mish    0.05  0.7616       0.6802              9.8
+
+=== hpo_audio_0: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+hpo_audio_0 ensemble: CV AUC 0.587 | TEST AUC 0.639 F1-macro 0.510 Acc 0.518 (thr 0.00)
+
+=== hpo_audio_1: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.1, 'head_drop': 0.3, 'lr': 0.001, 'wd': 0.05, 'act': 'relu', 'smooth': 0.0} ===
+hpo_audio_1 ensemble: CV AUC 0.594 | TEST AUC 0.659 F1-macro 0.634 Acc 0.661 (thr 0.13)
+
+=== hpo_audio_2: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.1, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.01, 'act': 'relu', 'smooth': 0.1} ===
+hpo_audio_2 ensemble: CV AUC 0.597 | TEST AUC 0.576 F1-macro 0.506 Acc 0.589 (thr 0.52)
+
+=== hpo_audio_3: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.4, 'head_drop': 0.3, 'lr': 0.0005, 'wd': 0.05, 'act': 'silu', 'smooth': 0.0} ===
+hpo_audio_3 ensemble: CV AUC 0.616 | TEST AUC 0.614 F1-macro 0.569 Acc 0.571 (thr 0.00)
+
+=== hpo_audio_4: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.001, 'wd': 0.001, 'act': 'silu', 'smooth': 0.1} ===
+hpo_audio_4 ensemble: CV AUC 0.603 | TEST AUC 0.614 F1-macro 0.530 Acc 0.536 (thr 0.13)
+
+=== hpo_audio_5: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'relu', 'smooth': 0.1} ===
+hpo_audio_5 ensemble: CV AUC 0.566 | TEST AUC 0.596 F1-macro 0.543 Acc 0.571 (thr 0.36)
+
+=== hpo_audio_6: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.3, 'head_drop': 0.3, 'lr': 0.001, 'wd': 0.01, 'act': 'silu', 'smooth': 0.0} ===
+hpo_audio_6 ensemble: CV AUC 0.617 | TEST AUC 0.641 F1-macro 0.587 Acc 0.625 (thr 0.24)
+
+=== hpo_audio_7: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.3, 'head_drop': 0.3, 'lr': 0.0001, 'wd': 0.001, 'act': 'gelu', 'smooth': 0.05} ===
+hpo_audio_7 ensemble: CV AUC 0.572 | TEST AUC 0.618 F1-macro 0.619 Acc 0.643 (thr 0.28)
+
+=== hpo_audio_8: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 32, 'in_drop': 0.4, 'head_drop': 0.3, 'lr': 0.0005, 'wd': 0.05, 'act': 'mish', 'smooth': 0.05} ===
+hpo_audio_8 ensemble: CV AUC 0.589 | TEST AUC 0.611 F1-macro 0.635 Acc 0.643 (thr 0.19)
+
+=== hpo_audio_9: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+hpo_audio_9 ensemble: CV AUC 0.639 | TEST AUC 0.682 F1-macro 0.589 Acc 0.589 (thr 0.00)
+
+Hyperparameter search (audio, dev CV AUC):
+  trial  hidden  in_drop  head_drop     lr    wd  act  smooth  cv_auc  cv_F1_macro  mean_best_epoch
+     9     128      0.4        0.2 0.0005 0.001 mish    0.00  0.6391       0.5609              5.6
+     6      32      0.3        0.3 0.0010 0.010 silu    0.00  0.6169       0.6206              5.8
+     3      32      0.4        0.3 0.0005 0.050 silu    0.00  0.6160       0.5516              7.0
+     4      32      0.2        0.3 0.0010 0.001 silu    0.10  0.6028       0.5516              8.0
+     2      32      0.1        0.2 0.0005 0.010 relu    0.10  0.5967       0.5889              9.4
+     1     128      0.1        0.3 0.0010 0.050 relu    0.00  0.5937       0.5865              7.0
+     8      32      0.4        0.3 0.0005 0.050 mish    0.05  0.5885       0.5741              7.6
+     0      64      0.2        0.3 0.0002 0.010 gelu    0.00  0.5865       0.5044              8.0
+     7      64      0.3        0.3 0.0001 0.001 gelu    0.05  0.5722       0.5746             15.2
+     5      64      0.2        0.3 0.0002 0.010 relu    0.10  0.5664       0.5653              9.8
+
+>>> Hyperparameters used: {
+ "text": {
+  "hidden": 64,
+  "in_drop": 0.2,
+  "head_drop": 0.3,
+  "lr": 0.0002,
+  "wd": 0.01,
+  "act": "gelu",
+  "smooth": 0.0
+ },
+ "audio": {
+  "hidden": 128,
+  "in_drop": 0.4,
+  "head_drop": 0.2,
+  "lr": 0.0005,
+  "wd": 0.001,
+  "act": "mish",
+  "smooth": 0.0
+ },
+ "fusion": {
+  "hidden": 64,
+  "in_drop": 0.2,
+  "head_drop": 0.3,
+  "lr": 0.0002,
+  "wd": 0.01,
+  "act": "gelu",
+  "smooth": 0.0
+ }
+}
+
+=== text: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 0] best epoch 05  early-stop AUC 0.761  final train loss 0.034
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 1] best epoch 06  early-stop AUC 0.814  final train loss 0.018
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 2] best epoch 07  early-stop AUC 0.704  final train loss 0.034
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 3] best epoch 07  early-stop AUC 0.875  final train loss 0.001
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 4] best epoch 08  early-stop AUC 0.739  final train loss 0.046
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 0] best epoch 06  early-stop AUC 0.784  final train loss 0.001
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 1] best epoch 07  early-stop AUC 0.898  final train loss 0.029
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 2] best epoch 15  early-stop AUC 0.804  final train loss 0.020
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 3] best epoch 06  early-stop AUC 0.890  final train loss 0.013
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 4] best epoch 07  early-stop AUC 0.890  final train loss 0.024
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 0] best epoch 07  early-stop AUC 0.856  final train loss 0.009
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 1] best epoch 07  early-stop AUC 0.814  final train loss 0.003
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 2] best epoch 09  early-stop AUC 0.912  final train loss 0.004
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 3] best epoch 06  early-stop AUC 0.795  final train loss 0.007
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 4] best epoch 06  early-stop AUC 0.769  final train loss 0.073
+text ensemble: CV AUC 0.826 | TEST AUC 0.837 F1-macro 0.749 Acc 0.750 (thr 0.08)
+Text-guided chunk scores ready (dev: per fold, test: all text models).
+
+=== text_nodiag: mode=text selector=all keep=100% gm=False enc=None layer_attn=False frames=off lora=False distill=False moddrop=False text=text_nd hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.670  final train loss 0.001
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 1] best epoch 07  early-stop AUC 0.735  final train loss 0.002
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 2] best epoch 07  early-stop AUC 0.684  final train loss 0.055
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 3] best epoch 06  early-stop AUC 0.792  final train loss 0.002
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 0 fold 4] best epoch 06  early-stop AUC 0.777  final train loss 0.057
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 0] best epoch 08  early-stop AUC 0.769  final train loss 0.002
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 1] best epoch 07  early-stop AUC 0.780  final train loss 0.006
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 2] best epoch 11  early-stop AUC 0.812  final train loss 0.003
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 3] best epoch 07  early-stop AUC 0.875  final train loss 0.001
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 1 fold 4] best epoch 08  early-stop AUC 0.754  final train loss 0.002
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 0] best epoch 09  early-stop AUC 0.837  final train loss 0.003
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 1] best epoch 07  early-stop AUC 0.742  final train loss 0.027
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 2] best epoch 18  early-stop AUC 0.872  final train loss 0.008
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 3] best epoch 08  early-stop AUC 0.746  final train loss 0.000
+  [text   all           keep 100% gm 0 enc None la 0 fa off lora 0 drop 0 phq 0 seed 2 fold 4] best epoch 06  early-stop AUC 0.693  final train loss 0.005
+text_nodiag ensemble: CV AUC 0.780 | TEST AUC 0.841 F1-macro 0.661 Acc 0.661 (thr 0.08)
+
+=== audio_all: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.564  final train loss 0.006 top layer 4 (w=0.11)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 1] best epoch 05  early-stop AUC 0.720  final train loss 0.044 top layer 6 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 2] best epoch 05  early-stop AUC 0.548  final train loss 0.027 top layer 6 (w=0.09)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 3] best epoch 06  early-stop AUC 0.614  final train loss 0.064 top layer 2 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 4] best epoch 05  early-stop AUC 0.496  final train loss 0.011 top layer 6 (w=0.14)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 0] best epoch 06  early-stop AUC 0.557  final train loss 0.005 top layer 3 (w=0.09)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 1] best epoch 05  early-stop AUC 0.659  final train loss 0.019 top layer 7 (w=0.11)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 2] best epoch 05  early-stop AUC 0.496  final train loss 0.043 top layer 6 (w=0.12)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 3] best epoch 05  early-stop AUC 0.379  final train loss 0.055 top layer 11 (w=0.09)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 4] best epoch 05  early-stop AUC 0.545  final train loss 0.045 top layer 6 (w=0.12)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 0] best epoch 05  early-stop AUC 0.481  final train loss 0.066 top layer 6 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 1] best epoch 05  early-stop AUC 0.633  final train loss 0.047 top layer 5 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 2] best epoch 05  early-stop AUC 0.428  final train loss 0.003 top layer 6 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 3] best epoch 10  early-stop AUC 0.534  final train loss 0.001 top layer 7 (w=0.11)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 4] best epoch 05  early-stop AUC 0.568  final train loss 0.038 top layer 6 (w=0.13)
+audio_all ensemble: CV AUC 0.616 | TEST AUC 0.665 F1-macro 0.622 Acc 0.625 (thr 0.03)
+
+=== audio_all_frozen: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=False distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 0] best epoch 05  early-stop AUC 0.519  final train loss 0.005 top layer 4 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 1] best epoch 05  early-stop AUC 0.720  final train loss 0.045 top layer 6 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 2] best epoch 05  early-stop AUC 0.544  final train loss 0.056 top layer 6 (w=0.09)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 3] best epoch 06  early-stop AUC 0.614  final train loss 0.064 top layer 2 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 4] best epoch 05  early-stop AUC 0.496  final train loss 0.011 top layer 6 (w=0.14)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 0] best epoch 05  early-stop AUC 0.625  final train loss 0.025 top layer 7 (w=0.09)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 1] best epoch 06  early-stop AUC 0.659  final train loss 0.002 top layer 0 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 2] best epoch 05  early-stop AUC 0.520  final train loss 0.018 top layer 6 (w=0.11)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 3] best epoch 06  early-stop AUC 0.644  final train loss 0.036 top layer 9 (w=0.10)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 4] best epoch 08  early-stop AUC 0.652  final train loss 0.037 top layer 7 (w=0.11)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 0] best epoch 06  early-stop AUC 0.754  final train loss 0.006 top layer 6 (w=0.12)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 1] best epoch 09  early-stop AUC 0.731  final train loss 0.041 top layer 5 (w=0.12)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 2] best epoch 05  early-stop AUC 0.628  final train loss 0.025 top layer 6 (w=0.12)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 3] best epoch 05  early-stop AUC 0.610  final train loss 0.014 top layer 5 (w=0.09)
+  [audio  all           keep 100% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 4] best epoch 05  early-stop AUC 0.496  final train loss 0.016 top layer 6 (w=0.09)
+audio_all_frozen ensemble: CV AUC 0.604 | TEST AUC 0.627 F1-macro 0.576 Acc 0.625 (thr 0.08)
+
+=== audio_learned: mode=audio selector=learned keep=60% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.614  final train loss 0.066 top layer 7 (w=0.10)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 1] best epoch 05  early-stop AUC 0.644  final train loss 0.104 top layer 0 (w=0.11)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 2] best epoch 06  early-stop AUC 0.488  final train loss 0.120 top layer 7 (w=0.10)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 3] best epoch 07  early-stop AUC 0.568  final train loss 0.063 top layer 7 (w=0.10)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 4] best epoch 06  early-stop AUC 0.515  final train loss 0.052 top layer 7 (w=0.13)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 0] best epoch 07  early-stop AUC 0.568  final train loss 0.085 top layer 7 (w=0.10)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 1] best epoch 06  early-stop AUC 0.580  final train loss 0.165 top layer 6 (w=0.10)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 2] best epoch 05  early-stop AUC 0.476  final train loss 0.120 top layer 6 (w=0.11)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 3] best epoch 05  early-stop AUC 0.473  final train loss 0.081 top layer 2 (w=0.09)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 4] best epoch 05  early-stop AUC 0.542  final train loss 0.032 top layer 6 (w=0.12)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 0] best epoch 08  early-stop AUC 0.610  final train loss 0.040 top layer 7 (w=0.09)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 1] best epoch 05  early-stop AUC 0.663  final train loss 0.219 top layer 7 (w=0.12)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 2] best epoch 05  early-stop AUC 0.416  final train loss 0.057 top layer 6 (w=0.10)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 3] best epoch 10  early-stop AUC 0.561  final train loss 0.064 top layer 7 (w=0.11)
+  [audio  learned       keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 4] best epoch 05  early-stop AUC 0.602  final train loss 0.160 top layer 6 (w=0.12)
+audio_learned ensemble: CV AUC 0.599 | TEST AUC 0.631 F1-macro 0.622 Acc 0.625 (thr 0.02)
+
+=== audio_textsel: mode=audio selector=text keep=60% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 0] best epoch 05  early-stop AUC 0.568  final train loss 0.106 top layer 10 (w=0.10)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 1] best epoch 05  early-stop AUC 0.693  final train loss 0.090 top layer 6 (w=0.10)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 2] best epoch 05  early-stop AUC 0.516  final train loss 0.043 top layer 3 (w=0.10)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 3] best epoch 06  early-stop AUC 0.614  final train loss 0.006 top layer 6 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 4] best epoch 05  early-stop AUC 0.568  final train loss 0.004 top layer 6 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 0] best epoch 06  early-stop AUC 0.610  final train loss 0.017 top layer 5 (w=0.09)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 1] best epoch 05  early-stop AUC 0.644  final train loss 0.110 top layer 7 (w=0.12)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 2] best epoch 05  early-stop AUC 0.476  final train loss 0.175 top layer 6 (w=0.12)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 3] best epoch 10  early-stop AUC 0.659  final train loss 0.070 top layer 7 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 4] best epoch 05  early-stop AUC 0.534  final train loss 0.015 top layer 7 (w=0.13)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 0] best epoch 08  early-stop AUC 0.633  final train loss 0.001 top layer 6 (w=0.09)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 1] best epoch 05  early-stop AUC 0.576  final train loss 0.081 top layer 5 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 2] best epoch 05  early-stop AUC 0.452  final train loss 0.060 top layer 6 (w=0.10)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 3] best epoch 05  early-stop AUC 0.580  final train loss 0.173 top layer 6 (w=0.09)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 4] best epoch 05  early-stop AUC 0.527  final train loss 0.008 top layer 6 (w=0.12)
+audio_textsel ensemble: CV AUC 0.652 | TEST AUC 0.635 F1-macro 0.550 Acc 0.554 (thr 0.00)
+
+=== audio_textsel_distill: mode=audio selector=text keep=60% gm=False enc=linear layer_attn=True frames=off lora=True distill=True moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.705  final train loss 0.456 top layer 4 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 1] best epoch 13  early-stop AUC 0.731  final train loss 0.443 top layer 7 (w=0.13)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 2] best epoch 10  early-stop AUC 0.580  final train loss 0.462 top layer 7 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 3] best epoch 21  early-stop AUC 0.739  final train loss 0.386 top layer 6 (w=0.12)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 4] best epoch 05  early-stop AUC 0.659  final train loss 0.444 top layer 6 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 0] best epoch 17  early-stop AUC 0.636  final train loss 0.442 top layer 6 (w=0.12)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 1] best epoch 18  early-stop AUC 0.697  final train loss 0.408 top layer 7 (w=0.15)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 2] best epoch 13  early-stop AUC 0.600  final train loss 0.446 top layer 7 (w=0.13)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 3] best epoch 12  early-stop AUC 0.617  final train loss 0.401 top layer 7 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 4] best epoch 14  early-stop AUC 0.591  final train loss 0.413 top layer 7 (w=0.17)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 0] best epoch 08  early-stop AUC 0.610  final train loss 0.469 top layer 6 (w=0.09)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 1] best epoch 15  early-stop AUC 0.678  final train loss 0.436 top layer 7 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 2] best epoch 15  early-stop AUC 0.612  final train loss 0.444 top layer 7 (w=0.11)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 3] best epoch 21  early-stop AUC 0.648  final train loss 0.376 top layer 7 (w=0.14)
+  [audio  text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 4] best epoch 20  early-stop AUC 0.508  final train loss 0.426 top layer 6 (w=0.15)
+audio_textsel_distill ensemble: CV AUC 0.653 | TEST AUC 0.626 F1-macro 0.589 Acc 0.589 (thr 0.16)
+
+=== fusion: mode=fusion selector=text keep=60% gm=False enc=linear layer_attn=True frames=off lora=True distill=True moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.644  final train loss 0.367 top layer 6 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 1] best epoch 05  early-stop AUC 0.720  final train loss 0.389 top layer 7 (w=0.08)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 2] best epoch 07  early-stop AUC 0.596  final train loss 0.375 top layer 6 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 3] best epoch 10  early-stop AUC 0.799  final train loss 0.338 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 4] best epoch 05  early-stop AUC 0.595  final train loss 0.362 top layer 5 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 0] best epoch 07  early-stop AUC 0.545  final train loss 0.382 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 1] best epoch 06  early-stop AUC 0.735  final train loss 0.358 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 2] best epoch 07  early-stop AUC 0.648  final train loss 0.372 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 3] best epoch 06  early-stop AUC 0.795  final train loss 0.348 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 4] best epoch 05  early-stop AUC 0.667  final train loss 0.369 top layer 8 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 0] best epoch 07  early-stop AUC 0.568  final train loss 0.374 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 1] best epoch 07  early-stop AUC 0.826  final train loss 0.360 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 2] best epoch 07  early-stop AUC 0.608  final train loss 0.369 top layer 5 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 3] best epoch 07  early-stop AUC 0.773  final train loss 0.368 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 4] best epoch 05  early-stop AUC 0.659  final train loss 0.373 top layer 7 (w=0.09)
+fusion ensemble: CV AUC 0.737 | TEST AUC 0.739 F1-macro 0.678 Acc 0.679 (thr 0.04)
+
+=== fusion_frozen: mode=fusion selector=text keep=60% gm=False enc=linear layer_attn=True frames=off lora=False distill=True moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.648  final train loss 0.368 top layer 6 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 1] best epoch 05  early-stop AUC 0.720  final train loss 0.389 top layer 7 (w=0.08)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 2] best epoch 07  early-stop AUC 0.596  final train loss 0.375 top layer 4 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 3] best epoch 10  early-stop AUC 0.799  final train loss 0.338 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 0 fold 4] best epoch 05  early-stop AUC 0.595  final train loss 0.362 top layer 5 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 0] best epoch 08  early-stop AUC 0.739  final train loss 0.360 top layer 12 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 1] best epoch 06  early-stop AUC 0.765  final train loss 0.360 top layer 3 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 2] best epoch 10  early-stop AUC 0.728  final train loss 0.368 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 3] best epoch 06  early-stop AUC 0.788  final train loss 0.358 top layer 4 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 1 fold 4] best epoch 11  early-stop AUC 0.777  final train loss 0.358 top layer 6 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 0] best epoch 07  early-stop AUC 0.811  final train loss 0.381 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 1] best epoch 11  early-stop AUC 0.875  final train loss 0.346 top layer 5 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 2] best epoch 08  early-stop AUC 0.716  final train loss 0.377 top layer 4 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 3] best epoch 06  early-stop AUC 0.773  final train loss 0.357 top layer 5 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 0 drop 0 phq 0 seed 2 fold 4] best epoch 06  early-stop AUC 0.655  final train loss 0.373 top layer 7 (w=0.09)
+fusion_frozen ensemble: CV AUC 0.741 | TEST AUC 0.739 F1-macro 0.622 Acc 0.625 (thr 0.01)
+
+=== fusion_moddrop: mode=fusion selector=text keep=60% gm=False enc=linear layer_attn=True frames=off lora=True distill=True moddrop=True text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.674  final train loss 0.432 top layer 9 (w=0.08)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 0 fold 1] best epoch 09  early-stop AUC 0.689  final train loss 0.484 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 0 fold 2] best epoch 09  early-stop AUC 0.572  final train loss 0.469 top layer 6 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 0 fold 3] best epoch 10  early-stop AUC 0.826  final train loss 0.410 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 0 fold 4] best epoch 08  early-stop AUC 0.610  final train loss 0.472 top layer 6 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 1 fold 0] best epoch 08  early-stop AUC 0.530  final train loss 0.381 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 1 fold 1] best epoch 08  early-stop AUC 0.750  final train loss 0.427 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 1 fold 2] best epoch 07  early-stop AUC 0.596  final train loss 0.457 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 1 fold 3] best epoch 15  early-stop AUC 0.780  final train loss 0.337 top layer 7 (w=0.11)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 1 fold 4] best epoch 09  early-stop AUC 0.625  final train loss 0.362 top layer 7 (w=0.10)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 2 fold 0] best epoch 12  early-stop AUC 0.610  final train loss 0.411 top layer 4 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 2 fold 1] best epoch 10  early-stop AUC 0.769  final train loss 0.372 top layer 7 (w=0.11)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 2 fold 2] best epoch 11  early-stop AUC 0.604  final train loss 0.437 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 2 fold 3] best epoch 10  early-stop AUC 0.701  final train loss 0.349 top layer 7 (w=0.09)
+  [fusion text          keep 60% gm 0 enc linear la 1 fa off lora 1 drop 1 phq 0 seed 2 fold 4] best epoch 07  early-stop AUC 0.659  final train loss 0.418 top layer 6 (w=0.10)
+fusion_moddrop ensemble: CV AUC 0.746 | TEST AUC 0.733 F1-macro 0.660 Acc 0.661 (thr 0.10)
+
+=== fusion_all: mode=fusion selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=True moddrop=False text=text hp={'hidden': 64, 'in_drop': 0.2, 'head_drop': 0.3, 'lr': 0.0002, 'wd': 0.01, 'act': 'gelu', 'smooth': 0.0} ===
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 0] best epoch 07  early-stop AUC 0.636  final train loss 0.364 top layer 7 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 1] best epoch 09  early-stop AUC 0.773  final train loss 0.354 top layer 6 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 2] best epoch 07  early-stop AUC 0.612  final train loss 0.377 top layer 4 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 3] best epoch 10  early-stop AUC 0.777  final train loss 0.336 top layer 7 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 0 fold 4] best epoch 06  early-stop AUC 0.625  final train loss 0.360 top layer 6 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 0] best epoch 07  early-stop AUC 0.561  final train loss 0.376 top layer 5 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 1] best epoch 06  early-stop AUC 0.754  final train loss 0.359 top layer 7 (w=0.10)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 2] best epoch 07  early-stop AUC 0.680  final train loss 0.377 top layer 7 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 3] best epoch 05  early-stop AUC 0.795  final train loss 0.364 top layer 7 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 1 fold 4] best epoch 07  early-stop AUC 0.629  final train loss 0.361 top layer 6 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 0] best epoch 05  early-stop AUC 0.481  final train loss 0.379 top layer 7 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 1] best epoch 10  early-stop AUC 0.830  final train loss 0.353 top layer 7 (w=0.11)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 2] best epoch 07  early-stop AUC 0.620  final train loss 0.373 top layer 5 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 3] best epoch 08  early-stop AUC 0.727  final train loss 0.342 top layer 7 (w=0.09)
+  [fusion all           keep 100% gm 0 enc linear la 1 fa off lora 1 drop 0 phq 0 seed 2 fold 4] best epoch 05  early-stop AUC 0.682  final train loss 0.372 top layer 6 (w=0.10)
+fusion_all ensemble: CV AUC 0.747 | TEST AUC 0.776 F1-macro 0.678 Acc 0.679 (thr 0.01)
+
+Late fusion candidates (audio part chosen by dev CV AUC):
+  late ['text', 'audio_textsel_distill']: weights [0.382 0.128] | CV AUC 0.824 | TEST AUC 0.839
+  late ['text', 'audio_textsel']: weights [0.384 0.06 ] | CV AUC 0.822 | TEST AUC 0.835
+  late ['text', 'audio_all']: weights [0.39  0.049] | CV AUC 0.825 | TEST AUC 0.838
+  late ['text_nodiag', 'audio_all']: weights [0.329 0.068] | CV AUC 0.773 | TEST AUC 0.835
+  late ['text', 'audio_lora_e2e']: weights [0.396 0.154] | CV AUC 0.826 | TEST AUC 0.837
+>>> Late fusion uses audio model 'audio_all', weights (text, audio) = [0.39  0.049]
+
+TEST RESULTS (threshold from dev CV)
+                                                                                                                              CV_AUC            AUC       F1_macro         F1_pos            MCC            Acc         BalAcc      Precision         Recall    Specificity
+model                                                                                                                                                                                                                                                                     
+text [all, keep 100%] per-seed                                                                                        0.806 ± 0.025  0.834 ± 0.017  0.678 ± 0.047  0.680 ± 0.033  0.448 ± 0.065  0.679 ± 0.047  0.724 ± 0.038  0.545 ± 0.043  0.905 ± 0.000  0.543 ± 0.076
+text [all, keep 100%] ensemble 3x5                                                                                            0.826          0.837          0.749          0.731          0.547          0.750          0.781          0.613          0.905          0.657
+text_nodiag [all, keep 100%, no-diag text] per-seed                                                                   0.761 ± 0.015  0.837 ± 0.007  0.671 ± 0.025  0.662 ± 0.014  0.418 ± 0.026  0.673 ± 0.027  0.710 ± 0.014  0.543 ± 0.029  0.857 ± 0.082  0.562 ± 0.087
+text_nodiag [all, keep 100%, no-diag text] ensemble 3x5                                                                       0.780          0.841          0.661          0.667          0.423          0.661          0.710          0.528          0.905          0.514
+audio_all [all, keep 100%, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed                               0.607 ± 0.028  0.666 ± 0.013  0.580 ± 0.035  0.582 ± 0.043  0.269 ± 0.046  0.589 ± 0.036  0.627 ± 0.011  0.476 ± 0.023  0.778 ± 0.192  0.476 ± 0.172
+audio_all [all, keep 100%, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5                                   0.616          0.665          0.622          0.588          0.277          0.625          0.643          0.500          0.714          0.571
+audio_all_frozen [all, keep 100%, linear, layer-attn scalar, frames-off, frozen HuBERT] per-seed                      0.585 ± 0.033  0.622 ± 0.033  0.569 ± 0.036  0.575 ± 0.050  0.232 ± 0.096  0.571 ± 0.036  0.613 ± 0.044  0.458 ± 0.031  0.778 ± 0.120  0.448 ± 0.072
+audio_all_frozen [all, keep 100%, linear, layer-attn scalar, frames-off, frozen HuBERT] ensemble 3x5                          0.604          0.627          0.576          0.432          0.163          0.625          0.576          0.500          0.381          0.771
+audio_learned [learned, keep 60%, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed                        0.587 ± 0.006  0.632 ± 0.008  0.603 ± 0.037  0.577 ± 0.031  0.272 ± 0.037  0.613 ± 0.045  0.633 ± 0.013  0.497 ± 0.043  0.714 ± 0.172  0.552 ± 0.172
+audio_learned [learned, keep 60%, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5                            0.599          0.631          0.622          0.588          0.277          0.625          0.643          0.500          0.714          0.571
+audio_textsel [text, keep 60%, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed                           0.637 ± 0.011  0.626 ± 0.020  0.565 ± 0.044  0.563 ± 0.032  0.203 ± 0.076  0.565 ± 0.045  0.602 ± 0.039  0.453 ± 0.034  0.746 ± 0.055  0.457 ± 0.076
+audio_textsel [text, keep 60%, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5                               0.652          0.635          0.550          0.590          0.245          0.554          0.614          0.450          0.857          0.371
+audio_textsel_distill [text, keep 60%, distilled, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed        0.645 ± 0.003  0.620 ± 0.011  0.485 ± 0.086  0.547 ± 0.042  0.120 ± 0.135  0.494 ± 0.074  0.557 ± 0.062  0.414 ± 0.041  0.810 ± 0.048  0.305 ± 0.115
+audio_textsel_distill [text, keep 60%, distilled, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5            0.653          0.626          0.589          0.582          0.245          0.589          0.624          0.471          0.762          0.486
+fusion [text, keep 60%, distilled, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed                       0.729 ± 0.036  0.741 ± 0.023  0.653 ± 0.044  0.667 ± 0.019  0.427 ± 0.036  0.655 ± 0.041  0.708 ± 0.027  0.525 ± 0.032  0.921 ± 0.027  0.495 ± 0.082
+fusion [text, keep 60%, distilled, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5                           0.737          0.739          0.678          0.690          0.477          0.679          0.733          0.541          0.952          0.514
+fusion_frozen [text, keep 60%, distilled, linear, layer-attn scalar, frames-off, frozen HuBERT] per-seed              0.712 ± 0.017  0.736 ± 0.020  0.622 ± 0.019  0.639 ± 0.021  0.373 ± 0.043  0.625 ± 0.018  0.678 ± 0.012  0.501 ± 0.014  0.889 ± 0.110  0.467 ± 0.092
+fusion_frozen [text, keep 60%, distilled, linear, layer-attn scalar, frames-off, frozen HuBERT] ensemble 3x5                  0.741          0.739          0.622          0.656          0.408          0.625          0.690          0.500          0.952          0.429
+fusion_moddrop [text, keep 60%, distilled, moddrop, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed      0.727 ± 0.031  0.737 ± 0.022  0.647 ± 0.029  0.671 ± 0.017  0.439 ± 0.035  0.649 ± 0.027  0.710 ± 0.022  0.518 ± 0.021  0.952 ± 0.000  0.467 ± 0.044
+fusion_moddrop [text, keep 60%, distilled, moddrop, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5          0.746          0.733          0.660          0.642          0.373          0.661          0.690          0.531          0.810          0.571
+fusion_all [all, keep 100%, distilled, linear, layer-attn scalar, frames-off, LoRA HuBERT] per-seed                   0.737 ± 0.028  0.779 ± 0.015  0.659 ± 0.019  0.682 ± 0.013  0.466 ± 0.031  0.661 ± 0.018  0.722 ± 0.015  0.526 ± 0.014  0.968 ± 0.027  0.476 ± 0.033
+fusion_all [all, keep 100%, distilled, linear, layer-attn scalar, frames-off, LoRA HuBERT] ensemble 3x5                       0.747          0.776          0.678          0.690          0.477          0.679          0.733          0.541          0.952          0.514
+audio_lora_e2e [LoRA-HuBERT Stage-A head, 5 folds]                                                                            0.589          0.639          0.586          0.623          0.327          0.589          0.652          0.475          0.905          0.400
+audio_probe_e2e [frozen-HuBERT Stage-A head, 5 folds]                                                                         0.553          0.629          0.453          0.580          0.211          0.482          0.576          0.417          0.952          0.200
+late [stack ['text', 'audio_all'], w=[0.39, 0.05]]                                                                            0.825          0.838          0.759          0.711          0.522          0.768          0.767          0.667          0.762          0.771
+late_nodiag [stack ['text_nodiag', 'audio_all'], w=[0.33, 0.07]]                                                              0.773          0.835          0.677          0.700          0.511          0.679          0.743          0.538          1.000          0.486
+late_e2e [stack ['text', 'audio_lora_e2e'], w=[0.4, 0.15]]                                                                    0.826          0.837          0.714          0.704          0.497          0.714          0.752          0.576          0.905          0.600
+LR-text                                                                                                                       0.747          0.776          0.694          0.667          0.425          0.696          0.719          0.567          0.810          0.629
+LR-text-nodiag                                                                                                                0.703          0.763          0.672          0.625          0.360          0.679          0.686          0.556          0.714          0.657
+LR-wavlm                                                                                                                      0.618          0.548          0.499          0.481          0.047          0.500          0.524          0.394          0.619          0.429
+LR-fusion                                                                                                                     0.746          0.780          0.678          0.667          0.422          0.679          0.714          0.545          0.857          0.571
+
+Diagnostics (dev AI-agent n=30, WoZ n=188):
+                config  cv_auc  test_auc  cv_auc_AI  cv_auc_WoZ    test_auc_ci
+                 text   0.826     0.837      0.595       0.854 [0.717, 0.928]
+          text_nodiag   0.780     0.841      0.660       0.794 [0.730, 0.930]
+            audio_all   0.616     0.665      0.385       0.647 [0.512, 0.800]
+     audio_all_frozen   0.604     0.627      0.400       0.627 [0.462, 0.769]
+        audio_learned   0.599     0.631      0.525       0.613 [0.481, 0.766]
+        audio_textsel   0.652     0.635      0.445       0.680 [0.475, 0.776]
+audio_textsel_distill   0.653     0.626      0.485       0.677 [0.461, 0.774]
+               fusion   0.737     0.739      0.525       0.764 [0.600, 0.854]
+        fusion_frozen   0.741     0.739      0.460       0.778 [0.605, 0.854]
+       fusion_moddrop   0.746     0.733      0.620       0.768 [0.594, 0.854]
+           fusion_all   0.747     0.776      0.590       0.770 [0.644, 0.886]
+       audio_lora_e2e   0.589     0.639      0.595       0.588 [0.490, 0.782]
+      audio_probe_e2e   0.553     0.629      0.645       0.534 [0.472, 0.768]
+                 late   0.825     0.838      0.590       0.854 [0.714, 0.927]
+          late_nodiag   0.773     0.835      0.655       0.791 [0.726, 0.928]
+             late_e2e   0.826     0.837      0.620       0.852 [0.713, 0.929]
+
+Paired bootstrap ΔAUC (A − B) on TEST (56 speakers, low power; noninferior = lower CI > -0.05):
+                     A                B  delta  ci_low  ci_high  p_one_sided  noninferior
+                 late             text  0.001  -0.028    0.030        0.482         True
+               fusion             text -0.098  -0.217    0.010        0.964        False
+                 late           fusion  0.099   0.009    0.200        0.016         True
+            audio_all audio_all_frozen  0.038  -0.021    0.100        0.098         True
+               fusion    fusion_frozen  0.000  -0.036    0.033        0.489         True
+       audio_lora_e2e  audio_probe_e2e  0.011  -0.048    0.072        0.372         True
+       audio_lora_e2e audio_all_frozen  0.012  -0.074    0.098        0.401        False
+       audio_lora_e2e         LR-wavlm  0.091  -0.053    0.238        0.114        False
+             late_e2e             text  0.000  -0.031    0.030        0.523         True
+             late_e2e             late -0.001  -0.028    0.021        0.546         True
+               fusion   fusion_moddrop  0.005  -0.018    0.033        0.337         True
+               fusion       fusion_all -0.037  -0.084   -0.001        0.978        False
+                 text      text_nodiag -0.004  -0.057    0.052        0.567        False
+        audio_textsel        audio_all -0.030  -0.088    0.024        0.849        False
+        audio_textsel    audio_learned  0.004  -0.049    0.056        0.443         True
+audio_textsel_distill    audio_textsel -0.010  -0.079    0.053        0.621        False
+                 late        LR-fusion  0.059  -0.034    0.159        0.114         True
+               fusion        LR-fusion -0.041  -0.140    0.048        0.812        False
+
+Paired bootstrap ΔCV-AUC (A − B) on DEV out-of-fold predictions (main evidence):
+                     A                B  delta  ci_low  ci_high  p_one_sided  noninferior
+                 late             text -0.001  -0.014    0.012        0.564         True
+               fusion             text -0.089  -0.155   -0.025        0.997        False
+                 late           fusion  0.088   0.031    0.148        0.002         True
+            audio_all audio_all_frozen  0.013  -0.028    0.055        0.283         True
+               fusion    fusion_frozen -0.004  -0.037    0.028        0.596         True
+       audio_lora_e2e  audio_probe_e2e  0.036  -0.002    0.078        0.038         True
+       audio_lora_e2e audio_all_frozen -0.015  -0.084    0.056        0.660        False
+             late_e2e             text  0.000  -0.012    0.012        0.482         True
+             late_e2e             late  0.001  -0.010    0.013        0.414         True
+               fusion   fusion_moddrop -0.009  -0.035    0.016        0.768         True
+               fusion       fusion_all -0.010  -0.037    0.015        0.776         True
+                 text      text_nodiag  0.046   0.006    0.087        0.012         True
+        audio_textsel        audio_all  0.036  -0.000    0.073        0.026         True
+        audio_textsel    audio_learned  0.053   0.014    0.095        0.004         True
+audio_textsel_distill    audio_textsel  0.000  -0.042    0.044        0.496         True
+
+>>> FINAL SYSTEM = 'late' (dev CV AUC: fusion 0.737, late 0.825) | threshold 0.63
+              precision    recall  f1-score   support
+
+           0     0.8438    0.7714    0.8060        35
+           1     0.6667    0.7619    0.7111        21
+
+    accuracy                         0.7679        56
+   macro avg     0.7552    0.7667    0.7585        56
+weighted avg     0.7773    0.7679    0.7704        56
+
+              point  ci_low  ci_high
+AUC          0.8381  0.7143   0.9275
+F1_macro     0.7585  0.6316   0.8564
+F1_pos       0.7111  0.5405   0.8364
+MCC          0.5217  0.2775   0.7228
+Acc          0.7679  0.6429   0.8571
+BalAcc       0.7667  0.6417   0.8691
+Precision    0.6667  0.4706   0.8500
+Recall       0.7619  0.5714   0.9444
+Specificity  0.7714  0.6332   0.9024
+[L3] audio_all: top layer 6 (w=0.097), effective layers 12.91/13, Spearman(weight, probe AUC) = -0.16
+[L3] audio_all_frozen: top layer 6 (w=0.097), effective layers 12.92/13, Spearman(weight, probe AUC) = -0.24
+[L3] audio_learned: top layer 7 (w=0.098), effective layers 12.91/13, Spearman(weight, probe AUC) = -0.15
+[L3] audio_textsel: top layer 6 (w=0.098), effective layers 12.90/13, Spearman(weight, probe AUC) = 0.27
+[L3] audio_textsel_distill: top layer 7 (w=0.114), effective layers 12.76/13, Spearman(weight, probe AUC) = 0.13
+[L3] fusion: top layer 7 (w=0.088), effective layers 12.97/13, Spearman(weight, probe AUC) = 0.10
+[L3] fusion_frozen: top layer 6 (w=0.085), effective layers 12.97/13, Spearman(weight, probe AUC) = -0.31
+[L3] fusion_moddrop: top layer 7 (w=0.093), effective layers 12.95/13, Spearman(weight, probe AUC) = 0.02
+[L3] fusion_all: top layer 7 (w=0.089), effective layers 12.96/13, Spearman(weight, probe AUC) = -0.08
+
+Per-session uplink (test speakers, participant speech only). wavlm_emb_* = one mixed 768-d vector per chunk (head on device); wavlm_layers_* = all layers (head off device, layer attention):
+  keep_frac  chunks_total  chunks_kept  raw_audio_all_KB  raw_audio_topk_KB  wavlm_emb_all_KB  wavlm_emb_topk_KB  wavlm_layers_topk_KB  wavlm_frames_topk_KB  text_emb_KB  egemaps_KB  wavlm_calls_saved_pct  raw_reduction_x  topk_emb_vs_all_raw_x  topk_layers_vs_all_raw_x
+      0.25         42.43        11.05          19888.39            5181.36             63.64              16.58                215.54               8588.62       149.22         0.0                  73.95             3.84                1199.52                     92.27
+      0.50         42.43        21.50          19888.39           10078.12             63.64              32.25                419.25              16705.50       149.22         0.0                  49.33             1.97                 616.69                     47.44
+      0.60         42.43        25.84          19888.39           12112.17             63.64              38.76                503.87              20077.12       149.22         0.0                  39.10             1.64                 513.13                     39.47
+      0.75         42.43        32.14          19888.39           15066.96             63.64              48.21                626.79              24975.00       149.22         0.0                  24.24             1.32                 412.50                     31.73
+      1.00         42.43        42.43          19888.39           19888.39             63.64              63.64                827.36              32967.00       149.22         0.0                   0.00             1.00                 312.50                     24.04
+
+=== sweep_audio_text-guided_0.25: mode=audio selector=text keep=25% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_text-guided_0.25 ensemble: CV AUC 0.609 | TEST AUC 0.682 F1-macro 0.605 Acc 0.661 (thr 0.08)
+
+=== sweep_audio_learned_0.25: mode=audio selector=learned keep=25% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_learned_0.25 ensemble: CV AUC 0.604 | TEST AUC 0.574 F1-macro 0.558 Acc 0.589 (thr 0.06)
+
+=== sweep_audio_learned_wavlm_0.25: mode=audio selector=learned_wavlm keep=25% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_learned_wavlm_0.25 ensemble: CV AUC 0.596 | TEST AUC 0.648 F1-macro 0.530 Acc 0.536 (thr 0.00)
+
+=== sweep_audio_energy_0.25: mode=audio selector=energy keep=25% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_energy_0.25 ensemble: CV AUC 0.587 | TEST AUC 0.627 F1-macro 0.572 Acc 0.607 (thr 0.12)
+
+=== sweep_audio_random_0.25: mode=audio selector=random keep=25% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_random_0.25 ensemble: CV AUC 0.576 | TEST AUC 0.654 F1-macro 0.516 Acc 0.518 (thr 0.00)
+
+=== sweep_audio_first_0.25: mode=audio selector=first keep=25% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_first_0.25 ensemble: CV AUC 0.572 | TEST AUC 0.650 F1-macro 0.533 Acc 0.536 (thr 0.01)
+
+=== sweep_audio_text-guided_0.5: mode=audio selector=text keep=50% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_text-guided_0.5 ensemble: CV AUC 0.637 | TEST AUC 0.642 F1-macro 0.619 Acc 0.625 (thr 0.02)
+
+=== sweep_audio_learned_0.5: mode=audio selector=learned keep=50% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_learned_0.5 ensemble: CV AUC 0.612 | TEST AUC 0.661 F1-macro 0.643 Acc 0.643 (thr 0.00)
+
+=== sweep_audio_learned_wavlm_0.5: mode=audio selector=learned_wavlm keep=50% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_learned_wavlm_0.5 ensemble: CV AUC 0.631 | TEST AUC 0.667 F1-macro 0.569 Acc 0.571 (thr 0.00)
+
+=== sweep_audio_energy_0.5: mode=audio selector=energy keep=50% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_energy_0.5 ensemble: CV AUC 0.598 | TEST AUC 0.597 F1-macro 0.578 Acc 0.589 (thr 0.03)
+
+=== sweep_audio_random_0.5: mode=audio selector=random keep=50% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_random_0.5 ensemble: CV AUC 0.593 | TEST AUC 0.595 F1-macro 0.589 Acc 0.589 (thr 0.01)
+
+=== sweep_audio_first_0.5: mode=audio selector=first keep=50% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_first_0.5 ensemble: CV AUC 0.588 | TEST AUC 0.646 F1-macro 0.619 Acc 0.625 (thr 0.03)
+
+=== sweep_audio_text-guided_0.75: mode=audio selector=text keep=75% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_text-guided_0.75 ensemble: CV AUC 0.627 | TEST AUC 0.622 F1-macro 0.550 Acc 0.554 (thr 0.00)
+
+=== sweep_audio_learned_0.75: mode=audio selector=learned keep=75% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_learned_0.75 ensemble: CV AUC 0.612 | TEST AUC 0.633 F1-macro 0.631 Acc 0.643 (thr 0.03)
+
+=== sweep_audio_learned_wavlm_0.75: mode=audio selector=learned_wavlm keep=75% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_learned_wavlm_0.75 ensemble: CV AUC 0.607 | TEST AUC 0.627 F1-macro 0.510 Acc 0.518 (thr 0.00)
+
+=== sweep_audio_energy_0.75: mode=audio selector=energy keep=75% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_energy_0.75 ensemble: CV AUC 0.605 | TEST AUC 0.629 F1-macro 0.605 Acc 0.607 (thr 0.01)
+
+=== sweep_audio_random_0.75: mode=audio selector=random keep=75% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_random_0.75 ensemble: CV AUC 0.589 | TEST AUC 0.603 F1-macro 0.619 Acc 0.625 (thr 0.01)
+
+=== sweep_audio_first_0.75: mode=audio selector=first keep=75% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_first_0.75 ensemble: CV AUC 0.604 | TEST AUC 0.654 F1-macro 0.605 Acc 0.607 (thr 0.03)
+
+=== sweep_audio_all_1.0: mode=audio selector=all keep=100% gm=False enc=linear layer_attn=True frames=off lora=True distill=False moddrop=False text=text hp={'hidden': 128, 'in_drop': 0.4, 'head_drop': 0.2, 'lr': 0.0005, 'wd': 0.001, 'act': 'mish', 'smooth': 0.0} ===
+sweep_audio_all_1.0 ensemble: CV AUC 0.621 | TEST AUC 0.675 F1-macro 0.625 Acc 0.625 (thr 0.01)
+
+K-sweep (audio, 2 seeds):
+       variant      selector  keep_frac  cv_auc  cv_F1_macro  test_AUC  test_F1_macro  test_F1_pos  test_MCC  test_Acc  test_BalAcc  test_Precision  test_Recall  test_Specificity
+  text-guided          text       0.25   0.609        0.600     0.682          0.605        0.457     0.234     0.661        0.605           0.571        0.381             0.829
+      learned       learned       0.25   0.604        0.593     0.574          0.558        0.439     0.115     0.589        0.557           0.450        0.429             0.686
+learned_wavlm learned_wavlm       0.25   0.596        0.542     0.648          0.530        0.581     0.219     0.536        0.600           0.439        0.857             0.343
+       energy        energy       0.25   0.587        0.587     0.627          0.572        0.450     0.146     0.607        0.571           0.474        0.429             0.714
+       random        random       0.25   0.576        0.533     0.654          0.516        0.542     0.138     0.518        0.567           0.421        0.762             0.371
+        first         first       0.25   0.572        0.530     0.650          0.533        0.567     0.191     0.536        0.590           0.436        0.810             0.371
+  text-guided          text       0.50   0.637        0.619     0.642          0.619        0.571     0.258     0.625        0.633           0.500        0.667             0.600
+      learned       learned       0.50   0.612        0.570     0.661          0.643        0.643     0.371     0.643        0.686           0.514        0.857             0.514
+learned_wavlm learned_wavlm       0.50   0.631        0.553     0.667          0.569        0.600     0.271     0.571        0.629           0.462        0.857             0.400
+       energy        energy       0.50   0.598        0.607     0.597          0.578        0.511     0.166     0.589        0.586           0.462        0.571             0.600
+       random        random       0.50   0.593        0.550     0.595          0.589        0.582     0.245     0.589        0.624           0.471        0.762             0.486
+        first         first       0.50   0.588        0.583     0.646          0.619        0.571     0.258     0.625        0.633           0.500        0.667             0.600
+  text-guided          text       0.75   0.627        0.591     0.622          0.550        0.590     0.245     0.554        0.614           0.450        0.857             0.371
+      learned       learned       0.75   0.612        0.602     0.633          0.631        0.565     0.269     0.643        0.638           0.520        0.619             0.657
+learned_wavlm learned_wavlm       0.75   0.607        0.522     0.627          0.510        0.571     0.192     0.518        0.586           0.429        0.857             0.314
+       energy        energy       0.75   0.605        0.581     0.629          0.605        0.577     0.250     0.607        0.629           0.484        0.714             0.543
+       random        random       0.75   0.589        0.572     0.603          0.619        0.571     0.258     0.625        0.633           0.500        0.667             0.600
+        first         first       0.75   0.604        0.574     0.654          0.605        0.577     0.250     0.607        0.629           0.484        0.714             0.543
+          all           all       1.00   0.621        0.577     0.675          0.625        0.632     0.346     0.625        0.671           0.500        0.857             0.486
+
+Selector comparisons at equal K (paired bootstrap ΔCV-AUC, A − B):
+  keep_frac           A             B  delta  ci_low  ci_high  p_one_sided  noninferior
+      0.25 text-guided       learned  0.005  -0.054    0.065        0.412        False
+      0.25 text-guided learned_wavlm  0.013  -0.052    0.079        0.336        False
+      0.25 text-guided        energy  0.022  -0.045    0.093        0.260         True
+      0.25 text-guided        random  0.034  -0.040    0.110        0.187         True
+      0.25 text-guided         first  0.038  -0.031    0.108        0.140         True
+      0.25     learned        random  0.028  -0.032    0.089        0.179         True
+      0.25 text-guided    all chunks -0.012  -0.067    0.042        0.648        False
+      0.50 text-guided       learned  0.025  -0.020    0.072        0.140         True
+      0.50 text-guided learned_wavlm  0.006  -0.040    0.055        0.396         True
+      0.50 text-guided        energy  0.039  -0.008    0.088        0.046         True
+      0.50 text-guided        random  0.044  -0.011    0.100        0.058         True
+      0.50 text-guided         first  0.050   0.001    0.099        0.024         True
+      0.50     learned        random  0.019  -0.035    0.076        0.258         True
+      0.50 text-guided    all chunks  0.016  -0.031    0.065        0.254         True
+      0.75 text-guided       learned  0.015  -0.032    0.058        0.257         True
+      0.75 text-guided learned_wavlm  0.020  -0.028    0.063        0.194         True
+      0.75 text-guided        energy  0.021  -0.021    0.061        0.146         True
+      0.75 text-guided        random  0.037  -0.019    0.091        0.091         True
+      0.75 text-guided         first  0.022  -0.025    0.073        0.191         True
+      0.75     learned        random  0.022  -0.028    0.074        0.192         True
+      0.75 text-guided    all chunks  0.006  -0.036    0.047        0.394         True
+/home/common/Documents/Depression/depression_v20_lora.py:2654: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  share = absphi.div(absphi.sum(1) + 1e-9, axis=0)
+
+Mean share of evidence per branch (neural fusion): {'text': 0.5043, 'wavlm': 0.4957}
+
+Integrated Gradients on the neural fusion ensemble (selected chunks)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 56/56 [03:52<00:00,  4.14s/it]
+IG completeness: median |delta|/|f(x)| = 0.5186 (raise IG_STEPS if > 0.05)
+Attention vs IG (Spearman): text 0.108, audio 0.722
+IG per layer (mean |attr|): {0: 0.12809999287128448, 1: 0.23690000176429749, 2: 0.2743000090122223, 3: 0.17790000140666962, 4: 0.1737000048160553, 5: 0.1818999946117401, 6: 0.21400000154972076, 7: 0.19210000336170197, 8: 0.21439999341964722, 9: 0.18529999256134033, 10: 0.16089999675750732, 11: 0.21330000460147858, 12: 0.15469999611377716}
+
+Linguistic markers: top-IG sentences vs rest (Wilcoxon)
+  depressed     first_person_sg   top 0.0958 vs rest 0.0991 p=0.5854
+  depressed     absolutist        top 0.0085 vs rest 0.0105 p=0.4524
+  depressed     negative_emotion  top 0.0094 vs rest 0.0021 p=0.0156
+  non-depressed first_person_sg   top 0.1058 vs rest 0.0911 p=0.0144
+  non-depressed absolutist        top 0.0062 vs rest 0.0093 p=0.0299
+  non-depressed negative_emotion  top 0.0089 vs rest 0.0017 p=0.0087
+
+Selection position vs uniform: KS p=5.16e-08 | Jaccard with loudest-K 0.506, with random-K 0.450
+
+Interpretability results saved to ./kaggle/working/outputs_v21
+
+[R4] Deployed system (late, 3 audio heads, single LoRA encoder of fold 1): test AUC 0.831 (full 5-fold ensemble: 0.838)
+/home/common/Documents/Depression/depression_v20_lora.py:3058: DeprecationWarning: You are using the legacy TorchScript-based ONNX export. Starting in PyTorch 2.9, the new torch.export-based ONNX exporter has become the default. Learn more about the new export logic: https://docs.pytorch.org/docs/stable/onnx_export.html. For exporting control flow: https://pytorch.org/tutorials/beginner/onnx/export_control_flow_model_to_onnx_tutorial.html
+  torch.onnx.export(module, args, path, dynamo=False, **kw)
+Exported ./kaggle/working/outputs_v21/onnx/text_head.onnx
+  parity text_head.onnx: max |onnx - torch| = 7.92e-08 OK
+Exported ./kaggle/working/outputs_v21/onnx/audio_head.onnx
+  parity audio_head.onnx: max |onnx - torch| = 1.19e-06 OK
+Exported ./kaggle/working/outputs_v21/onnx/text_encoder.onnx
+  parity text_encoder.onnx: max |onnx - torch| = 6.41e-07 OK
+Exported ./kaggle/working/outputs_v21/onnx/audio_encoder.onnx
+  parity audio_encoder.onnx: max |onnx - torch| = 2.26e-05 OK
+  E2E parity speaker 600: torch P=0.7759 | onnx P=0.7759 | kept 6/6 chunks
+  E2E parity speaker 602: torch P=0.5101 | onnx P=0.5102 | kept 72/72 chunks
+  E2E parity speaker 604: torch P=0.3514 | onnx P=0.3514 | kept 7/7 chunks
+
+Host CPU (ONNX Runtime) latency per session, seconds — rerun on the Jetson for the paper:
+           n_chunks_encoded  load_audio  cheap_features  text_encoder  select   wavlm  speaker_egemaps  heads  total_s
+pipeline                                                                                                             
+all                 28.333       0.232           0.517         1.219     0.0  10.695              0.0  0.092   12.755
+top-k               28.333       1.102           0.244         1.070     0.0  12.115              0.0  0.167   14.698
